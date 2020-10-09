@@ -16,26 +16,26 @@ body {
     display: flex;
     justify-content: center
 }
-.instagram-wrapper {
+.instagram-wraper {
     display: flex;
     align-items: center;
     justify-content: start;
     width: 60%;
-    height: 100vh;
+    height: 50vh;
 }
 .instagram-phone {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center; 
     width: 50%;
 }
-.instagram-phone {
+.instagram-phone img {
     height: 50rem;
 }
 .instagram-continue {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    align-items: center; /*horizontal*/
+    justify-content: space-around; /*vertical*/
     flex-direction: column;
     width: 50%;
     min-height: 34rem;
@@ -50,7 +50,7 @@ body {
     padding: 1.3rem 0;
     border: 1px solid lightgray;
 }
-.group>:nth-child(1) {
+.group:nth-child(1) {
     min-height: 19rem;
 
 }
